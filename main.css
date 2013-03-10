@@ -1,0 +1,89 @@
+input, label {
+    font-size: 11px;
+}
+
+#processes {
+    margin-top: 2px;
+    max-height: 340px;
+    width: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    float: left;
+}
+
+#visualization {
+    1width: 2400px; 
+    1height: 340px; 
+    float: left;
+}
+
+.colorblock {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#datatransfer {
+	display: none;
+}
+
+#datas {
+    width: 800px; 
+    height: 340px; 
+    float: left;
+}
+
+.wrapper {
+	float: left;
+}
+
+#autoupdate_label {
+	display: none;
+}
+
+.loading {
+	display: none;
+    width: 16px;
+    float: left;
+    margin: 2px;
+}
+
+.clearboth {
+	clear: both;
+}
+
+#btnStop {
+	
+}
+
+#devices {
+    overflow-x: hidden;   
+    height: 100px;
+    width: 300px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#datatransfers {
+    display: none;
+}
+
+a.device-header {
+    display: block;
+    padding: 2px;
+    background-color: gray;
+    color: white;
+    margin-bottom: 2px;
+}
+
+div.process-line {
+    
+}
+
+.process-filter-label {
+    font-size: 12px;
+}

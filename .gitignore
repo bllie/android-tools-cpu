@@ -1,0 +1,9 @@
+.access.log
+.error.log
+error_log
+androidtools.sublime-project
+androidtools.sublime-workspace
+.settings/
+.project
+.buildpath
+stop

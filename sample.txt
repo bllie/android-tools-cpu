@@ -1,0 +1,39 @@
+
+
+
+User 26%, System 73%, IOW 0%, IRQ 0%
+User 4 + Nice 0 + Sys 11 + Idle 0 + IOW 0 + IRQ 0 + SIRQ 0 = 15
+
+  PID CPU% S  #THR     VSS     RSS PCY UID      Name
+13571  80% R     1   1048K    456K  fg shell    top
+    2   0% S     1      0K      0K  fg root     kthreadd
+    3   0% S     1      0K      0K  fg root     ksoftirqd/0
+    4   0% S     1      0K      0K  fg root     watchdog/0
+    5   0% S     1      0K      0K  fg root     events/0
+    6   0% S     1      0K      0K  fg root     khelper
+    9   0% S     1      0K      0K  fg root     async/mgr
+   12   0% S     1      0K      0K  fg root     suspend_sys_syn
+   13   0% S     1      0K      0K  fg root     suspend
+   14   0% S     1      0K      0K  fg root     npa/0
+[12:13:08] 
+/ $ 
+
+
+
+adb shell top -n 1 -m 10 -d 0
+
+
+User 33%, System 66%, IOW 0%, IRQ 0%
+User 7 + Nice 0 + Sys 14 + Idle 0 + IOW 0 + IRQ 0 + SIRQ 0 = 21
+
+  PID CPU% S  #THR     VSS     RSS PCY UID      Name
+13559  61% R     1   1044K    452K  fg shell    top
+11773  14% S    11 153948K  35056K  fg system   com.android.settings
+    3   0% S     1      0K      0K  fg root     ksoftirqd/0
+    4   0% S     1      0K      0K  fg root     watchdog/0
+    5   0% S     1      0K      0K  fg root     events/0
+    6   0% S     1      0K      0K  fg root     khelper
+    9   0% S     1      0K      0K  fg root     async/mgr
+   12   0% S     1      0K      0K  fg root     suspend_sys_syn
+   13   0% S     1      0K      0K  fg root     suspend
+   14   0% S     1      0K      0K  fg root     npa/0

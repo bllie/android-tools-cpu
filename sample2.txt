@@ -1,0 +1,19 @@
+User 45%, System 27%, IOW 0%, IRQ 2%
+User 63 + Nice 0 + Sys 38 + Idle 35 + IOW 0 + IRQ 0 + SIRQ 3 = 139
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+ 8828  0  31% S    24 323704K  55128K  fg app_24   tv.ustream.ustream
+ 1836  0  12% S    27 352720K  11984K  fg media    /system/bin/mediaserver
+  527  0   6% S     1      0K      0K  fg root     dhd_dpc
+ 9215  0   5% R     1   1068K    484K  fg shell    top
+ 9222  0   5% R     1   1068K    484K  fg shell    top
+ 1833  0   2% S    16  47892K   5808K  fg system   /system/bin/surfaceflinger
+ 6132  0   1% S     1      0K      0K  fg root     kworker/0:1
+ 1997  1   0% S    94 403736K  68816K  fg system   system_server
+  525  0   0% S     1      0K      0K  fg root     dhd_watchdog
+  379  1   0% S     1      0K      0K  fg root     kblockd
+  392  1   0% S     1      0K      0K  fg root     khubd
+  428  0   0% S     1      0K      0K  fg root     irq/359-max8997
+  479  1   0% S     1      0K      0K  fg root     cfg80211
+  523  0   0% S     1      0K      0K  fg root     kworker/u:4
+  528  0   0% S     1      0K      0K  fg root     dhd_sysioc
