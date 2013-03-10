@@ -135,9 +135,6 @@ function displayGraph(source) {
     delete rowQueue[0];
     rowQueue.splice(0,1);
 
-    console.log("rowQueue.size: "+rowQueue.length);
-    console.log("rows.rows: "+rows.getNumberOfRows()+", rows.columns: "+rows.getNumberOfColumns());
-
     rows.addRow(row);
     while (rows.getNumberOfRows() > samples) {
         rows.removeRow(0);
