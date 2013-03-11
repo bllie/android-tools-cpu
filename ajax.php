@@ -187,6 +187,7 @@
 		}
 	} else if (isset($_GET["stop"]) && $_GET["stop"]) {
 		touch("stop");
+		adbStop();
 
 		header("Content-type: application/json");
 		echo(json_encode(array("message"=>"Stop accepted for ".$_GET["device"].".","device"=>$_GET["device"])));
